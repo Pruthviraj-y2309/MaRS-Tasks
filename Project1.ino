@@ -18,7 +18,16 @@ void setup()
 void loop() {
     // Read sensor values
     int motion = digitalRead(motionpirpin);
-    int tiltState = digitalRead(tiltpin);  
+
+    if (motion == HIGH && !systemActive) {
+        Serial.println(" Motion Detected! System Activated.");
+        systemActive = true;
+        activationTime = millis();
+      }
+
+    if(systemActive){
+
+        int tiltState = digitalRead(tiltpin);  
     int tempRaw = analogRead(temppin);
     int flexValue = analogRead(flexpin);
     
@@ -70,5 +79,7 @@ void loop() {
     }
     
     delay(500);  
-  }
+
+
+}
   
