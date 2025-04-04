@@ -8,3 +8,7 @@ activity to be found and corresponding measures to imply .
 then i included 3 more pir motion detectors one for each direction.
 
 tilt sensor was not being effective i replaced it with force sensor 
+
+
+
+
