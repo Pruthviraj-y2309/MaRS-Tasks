@@ -10,5 +10,8 @@ then i included 3 more pir motion detectors one for each direction.
 tilt sensor was not being effective i replaced it with force sensor 
 
 
+link to tinkercad 
+https://www.tinkercad.com/things/lihLNn2lGeb-choryantra?sharecode=9B4GZ_8h0ZUEYS0NU7kQYzY38O8QBp1Ra8Qd06j39b8
+
 
 
