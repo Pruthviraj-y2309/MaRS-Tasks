@@ -6,3 +6,5 @@ Morever i included flex sensor so that it the case is compressed or played with 
 But theres a catch i considered making it most power effecient so it wont be operating continuously it would act only when there is tampering in motion sensor and then it activates all other sesnor for exact 
 activity to be found and corresponding measures to imply .
 then i included 3 more pir motion detectors one for each direction.
+
+tilt sensor was not being effective i replaced it with force sensor 
